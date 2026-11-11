@@ -1,4 +1,4 @@
-# JCRCMDS
+# JCRCMDS Plug-in
 
 ## Description
 
@@ -6,9 +6,15 @@ The JCRCMDS plug-in is a wrapper plug-in for the JCRCMDS utility of Craig Rutled
 
 Craig Rutledge: http://www.jcrcmds.com/
 
-RDi 9.5.1.3+ update site: https://tools-400.github.io/jcrcmds/update-site/eclipse/rdi8.0/
+Further information is available on the [JCRCMDS web site](https://tools-400.github.io/jcrcmds/).
 
-Further information about iRPGUnit are available on the [Jcrcmds Web Site](https://tools-400.github.io/jcrcmds/).
+## Installation
+
+JCRCMDS requires RDi 9.5.1.3 or later.
+
+1. Select **Help > Install New Software...** in RDi.
+2. Enter the update site `https://tools-400.github.io/jcrcmds/update-site/eclipse/rdi8.0/` and select **JCRCMDS for RDi 8.0+**.
+3. Finish the wizard and restart RDi.
 
 ## Usage
 
