@@ -10,7 +10,7 @@ Further information is available on the [JCRCMDS web site](https://tools-400.git
 
 ## Installation
 
-JCRCMDS requires RDi 9.5.1.3 or later.
+JCRCMDS requires RDi 9.6.0.13 or later.
 
 1. Select **Help > Install New Software...** in RDi.
 2. Enter the update site `https://tools-400.github.io/jcrcmds/update-site/eclipse/rdi8.0/` and select **JCRCMDS for RDi 8.0+**.
