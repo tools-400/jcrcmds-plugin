@@ -1,4 +1,4 @@
-# JCRCMDS Plug-in
+# JCRCMDS
 
 ## Description
 
