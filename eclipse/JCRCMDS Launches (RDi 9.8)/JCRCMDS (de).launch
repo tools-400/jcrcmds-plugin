@@ -2,7 +2,7 @@
 <launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
     <booleanAttribute key="append.args" value="true"/>
     <booleanAttribute key="askclear" value="true"/>
-    <booleanAttribute key="automaticAdd" value="true"/>
+    <booleanAttribute key="automaticAdd" value="false"/>
     <booleanAttribute key="automaticValidate" value="false"/>
     <stringAttribute key="bootstrap" value=""/>
     <stringAttribute key="checked" value="[NONE]"/>
@@ -11,55 +11,7 @@
     <booleanAttribute key="clearwslog" value="false"/>
     <stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/JCRCMDS (de)"/>
     <booleanAttribute key="default" value="false"/>
-    <setAttribute key="deselected_workspace_bundles">
-        <setEntry value="biz.isphere.adapter"/>
-        <setEntry value="biz.isphere.antcontrib"/>
-        <setEntry value="biz.isphere.base"/>
-        <setEntry value="biz.isphere.base.help"/>
-        <setEntry value="biz.isphere.common.libraries"/>
-        <setEntry value="biz.isphere.comparefilters"/>
-        <setEntry value="biz.isphere.core"/>
-        <setEntry value="biz.isphere.core.help"/>
-        <setEntry value="biz.isphere.development"/>
-        <setEntry value="biz.isphere.ide"/>
-        <setEntry value="biz.isphere.joblogexplorer"/>
-        <setEntry value="biz.isphere.joblogexplorer.help"/>
-        <setEntry value="biz.isphere.joblogexplorer.rse"/>
-        <setEntry value="biz.isphere.jobtraceexplorer.core"/>
-        <setEntry value="biz.isphere.jobtraceexplorer.help"/>
-        <setEntry value="biz.isphere.jobtraceexplorer.rse"/>
-        <setEntry value="biz.isphere.journalexplorer.base"/>
-        <setEntry value="biz.isphere.journalexplorer.core"/>
-        <setEntry value="biz.isphere.journalexplorer.help"/>
-        <setEntry value="biz.isphere.journalexplorer.rse"/>
-        <setEntry value="biz.isphere.lpex.comments"/>
-        <setEntry value="biz.isphere.lpex.comments.help"/>
-        <setEntry value="biz.isphere.lpex.tasks"/>
-        <setEntry value="biz.isphere.lpex.tasks.help"/>
-        <setEntry value="biz.isphere.messagesubsystem"/>
-        <setEntry value="biz.isphere.messagesubsystem.help"/>
-        <setEntry value="biz.isphere.messagesubsystem.rse"/>
-        <setEntry value="biz.isphere.rcp"/>
-        <setEntry value="biz.isphere.rse"/>
-        <setEntry value="biz.isphere.standalone"/>
-        <setEntry value="biz.isphere.strpreprc"/>
-        <setEntry value="biz.isphere.strpreprc.help"/>
-        <setEntry value="biz.isphere.tn5250j.base"/>
-        <setEntry value="biz.isphere.tn5250j.core"/>
-        <setEntry value="biz.isphere.tn5250j.help"/>
-        <setEntry value="biz.isphere.tn5250j.rse"/>
-        <setEntry value="biz.rapidfire.core"/>
-        <setEntry value="biz.rapidfire.help"/>
-        <setEntry value="biz.rapidfire.rse"/>
-        <setEntry value="biz.rapidfire.rsebase"/>
-        <setEntry value="de.tools400.lpex.irpgformatter.core"/>
-        <setEntry value="de.tools400.rpgunit.cmone"/>
-        <setEntry value="de.tools400.rpgunit.core"/>
-        <setEntry value="de.tools400.rpgunit.core.help"/>
-        <setEntry value="de.tools400.rpgunit.isphere"/>
-        <setEntry value="de.tools400.rpgunit.spooledfileviewer"/>
-        <setEntry value="org.eclipse.albireo.core"/>
-    </setAttribute>
+    <setAttribute key="deselected_workspace_bundles"/>
     <booleanAttribute key="includeOptional" value="true"/>
     <stringAttribute key="location" value="${workspace_loc}/../runtime-jcrcmds-de"/>
     <booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
@@ -96,7 +48,6 @@
         <setEntry value="com.ibm.cic.licensing.lum.nl1@default:false"/>
         <setEntry value="com.ibm.cic.licensing.lum.win32@default:false"/>
         <setEntry value="com.ibm.cic.licensing.lum@default:default"/>
-        <setEntry value="com.ibm.commoncomponents.branding@default:default"/>
         <setEntry value="com.ibm.commoncomponents.ccaas.core@default:default"/>
         <setEntry value="com.ibm.commoncomponents.codecoverage.core.exporters@default:default"/>
         <setEntry value="com.ibm.debug.daemon.core@default:default"/>
@@ -106,7 +57,7 @@
         <setEntry value="com.ibm.debug.pdt.animatedstep.nl1@default:false"/>
         <setEntry value="com.ibm.debug.pdt.animatedstep@default:default"/>
         <setEntry value="com.ibm.debug.pdt.branding@default:default"/>
-        <setEntry value="com.ibm.debug.pdt.codecoverage.core.nl1@default:false"/>
+        <setEntry value="com.ibm.debug.pdt.codecoverage.core.nl1*7.1.5.202504211539@default:false"/>
         <setEntry value="com.ibm.debug.pdt.codecoverage.core.results@default:default"/>
         <setEntry value="com.ibm.debug.pdt.codecoverage.core@default:default"/>
         <setEntry value="com.ibm.debug.pdt.codecoverage.ui.launch.nl1@default:false"/>
@@ -124,6 +75,7 @@
         <setEntry value="com.ibm.debug.pdt.editors.rdp.nl1@default:false"/>
         <setEntry value="com.ibm.debug.pdt.editors.rdp@default:default"/>
         <setEntry value="com.ibm.debug.pdt.engines.rdp.iseries@default:false"/>
+        <setEntry value="com.ibm.debug.pdt.genpassword@default:default"/>
         <setEntry value="com.ibm.debug.pdt.persistence.nl1@default:false"/>
         <setEntry value="com.ibm.debug.pdt.persistence@default:default"/>
         <setEntry value="com.ibm.debug.pdt.rsecommon.nl1@default:false"/>
@@ -303,8 +255,8 @@
         <setEntry value="org.apache.lucene.analyzers-common@default:default"/>
         <setEntry value="org.apache.lucene.analyzers-smartcn@default:default"/>
         <setEntry value="org.apache.lucene.core@default:default"/>
-        <setEntry value="org.apache.sshd.osgi*2.9.2.v20221117-1942@default:default"/>
-        <setEntry value="org.apache.sshd.sftp*2.9.2.v20221117-1942@default:default"/>
+        <setEntry value="org.apache.sshd.osgi@default:default"/>
+        <setEntry value="org.apache.sshd.sftp@default:default"/>
         <setEntry value="org.apache.xerces@default:default"/>
         <setEntry value="org.apache.xml.resolver@default:default"/>
         <setEntry value="org.apache.xml.serializer@default:default"/>
@@ -588,15 +540,15 @@
         <setEntry value="org.eclipse.jdt.ui.nl1@default:false"/>
         <setEntry value="org.eclipse.jdt.ui@default:default"/>
         <setEntry value="org.eclipse.jdt@default:default"/>
-        <setEntry value="org.eclipse.jetty.http*10.0.20@default:default"/>
+        <setEntry value="org.eclipse.jetty.http*10.0.24@default:default"/>
         <setEntry value="org.eclipse.jetty.http*10.0.6@default:default"/>
-        <setEntry value="org.eclipse.jetty.io*10.0.20@default:default"/>
+        <setEntry value="org.eclipse.jetty.io*10.0.24@default:default"/>
         <setEntry value="org.eclipse.jetty.jndi@default:default"/>
         <setEntry value="org.eclipse.jetty.plus@default:default"/>
-        <setEntry value="org.eclipse.jetty.security*10.0.20@default:default"/>
-        <setEntry value="org.eclipse.jetty.server*10.0.20@default:default"/>
-        <setEntry value="org.eclipse.jetty.servlet*10.0.20@default:default"/>
-        <setEntry value="org.eclipse.jetty.util*10.0.20@default:default"/>
+        <setEntry value="org.eclipse.jetty.security*10.0.24@default:default"/>
+        <setEntry value="org.eclipse.jetty.server*10.0.24@default:default"/>
+        <setEntry value="org.eclipse.jetty.servlet*10.0.24@default:default"/>
+        <setEntry value="org.eclipse.jetty.util*10.0.24@default:default"/>
         <setEntry value="org.eclipse.jetty.webapp@default:default"/>
         <setEntry value="org.eclipse.jetty.xml@default:default"/>
         <setEntry value="org.eclipse.jface.databinding@default:default"/>
