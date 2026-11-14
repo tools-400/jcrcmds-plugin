@@ -18,11 +18,7 @@ JCRCMDS requires RDi 9.6.0.13 or later.
 
 ## Usage
 
-1) Load a RPG source member into the Lpex editor.
-2) Right-click into the source member to open the context menu.
-3) Select "JCRCMDS -> Convert all" or "JCRCMDS -> Convert selection" to start the conversion.
-
-Then the plug-in uploads the entire source member or the selected lines to the host, executes command JCRHFD, downloads the converted source lines and updates the source member.
+How to convert a source with the plug-in is described in [USAGE.md](USAGE.md).
 
 ## Liability
 
