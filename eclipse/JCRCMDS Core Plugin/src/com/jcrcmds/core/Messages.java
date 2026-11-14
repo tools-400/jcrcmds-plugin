@@ -23,7 +23,6 @@ public class Messages extends NLS {
     public static String Could_not_create_source_file_B_in_library_A_Reason_C;
     public static String Could_not_retrieve_current_library;
     public static String Could_not_set_current_library_to_A;
-    public static String Could_restore_current_library_to_A;
     public static String Could_not_create_source_member_C_in_file_B_in_library_A_Reason_D;
     public static String Could_not_clear_source_member_C_in_file_B_in_library_A_Reason_D;
 
