@@ -3,7 +3,7 @@
     <booleanAttribute key="append.args" value="true"/>
     <booleanAttribute key="askclear" value="true"/>
     <booleanAttribute key="automaticAdd" value="true"/>
-    <booleanAttribute key="automaticValidate" value="false"/>
+    <booleanAttribute key="automaticValidate" value="true"/>
     <stringAttribute key="bootstrap" value=""/>
     <stringAttribute key="checked" value="[NONE]"/>
     <booleanAttribute key="clearConfig" value="false"/>
@@ -63,13 +63,13 @@
     <stringAttribute key="deselected_workspace_plugins" value="biz.isphere.adapter,biz.isphere.antcontrib,biz.isphere.base,biz.isphere.base.help,biz.isphere.common.libraries,biz.isphere.comparefilters,biz.isphere.core,biz.isphere.core.help,biz.isphere.development,biz.isphere.ide,biz.isphere.joblogexplorer,biz.isphere.joblogexplorer.help,biz.isphere.joblogexplorer.rse,biz.isphere.jobtraceexplorer.core,biz.isphere.jobtraceexplorer.help,biz.isphere.jobtraceexplorer.rse,biz.isphere.journalexplorer.base,biz.isphere.journalexplorer.core,biz.isphere.journalexplorer.help,biz.isphere.journalexplorer.rse,biz.isphere.lpex.comments,biz.isphere.lpex.comments.help,biz.isphere.lpex.tasks,biz.isphere.lpex.tasks.help,biz.isphere.messagesubsystem,biz.isphere.messagesubsystem.help,biz.isphere.messagesubsystem.rse,biz.isphere.rcp,biz.isphere.rse,biz.isphere.standalone,biz.isphere.strpreprc,biz.isphere.strpreprc.help,biz.isphere.tn5250j.base,biz.isphere.tn5250j.core,biz.isphere.tn5250j.help,biz.isphere.tn5250j.rse,biz.rapidfire.core,biz.rapidfire.help,biz.rapidfire.rse,biz.rapidfire.rsebase,de.tools400.lpex.irpgformatter.core,de.tools400.rpgunit.cmone,de.tools400.rpgunit.core,de.tools400.rpgunit.core.help,de.tools400.rpgunit.isphere,de.tools400.rpgunit.spooledfileviewer,org.eclipse.albireo.core"/>
     <booleanAttribute key="includeOptional" value="true"/>
     <stringAttribute key="location" value="${workspace_loc}/../runtime-jcrcmds-de"/>
-    <booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
     <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
         <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+        <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
     </listAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
     <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JRE 1.8.0 IBM J9"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl de -consoleLog -eclipse.keyring &quot;${system_property:user.home}/.eclipse/org.eclipse.equinox.security/secure_storage_rdi096&quot;"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl de -consoleLog -eclipse.keyring @user.home/.eclipse/org.eclipse.equinox.security/secure_storage_rdi096"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true"/>
     <booleanAttribute key="pde.generated.config" value="false"/>
