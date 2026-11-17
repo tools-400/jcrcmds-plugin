@@ -23,3 +23,7 @@ How to convert a source with the plug-in is described in [USAGE.md](USAGE.md).
 ## Liability
 
 This software is free and provided without warranty. You use it at your own risk: test it with non-critical data first, and back up your data before you use it. The [license](LICENSE) applies in addition.
+
+## See Also
+
+* [JCRCMDS Update Site](https://github.com/tools-400/jcrcmds)
