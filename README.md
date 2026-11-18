@@ -8,6 +8,12 @@ Craig Rutledge: http://www.jcrcmds.com/
 
 Further information is available on the [JCRCMDS web site](https://tools-400.github.io/jcrcmds/).
 
+## Features
+
+* Converts the whole source member or only the selected lines in the LPEX editor.
+* Runs the command JCRHFD of JCRCMDS on the IBM i and replaces the lines with the result.
+* The product library, the work library, the work file and the JCRHFD command can be set in the preferences.
+
 ## Installation
 
 JCRCMDS requires RDi 9.6.0.13 or later.
